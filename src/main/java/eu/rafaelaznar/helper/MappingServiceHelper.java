@@ -217,7 +217,7 @@ public class MappingServiceHelper {
                     case "empty":
                         oReplyBean = oCarritoService.empty();
                         break;
-                    case "count":
+                    case "getcount":
                         oReplyBean = oCarritoService.count();
                         break;
                 }
